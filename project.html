@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Raushan | Portfolio</title>
+  <style>
+    *{
+        margin : 0;
+        padding : 0; 
+        box-sizing  : border-box;
+    }
+    html , body {
+       height : 100%;
+       width : 100%;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+    .main{
+        margin-top: 15vh;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: #E6D9CD;
+        position: relative;
+
+        padding-bottom: 4vmax;
+    }
+    .education > h4{
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    .education{
+
+        display: flex;
+
+        justify-content: space-between;
+        height: 50vh;
+        width: 45%;
+        background-color: rgba(255, 255, 255, 0.903);
+
+        overflow: hidden;
+
+        
+    }
+    
+    .right{
+
+        height: 100%;
+        width: 35%;
+    }
+    .left{
+        padding: 6vmax 0;
+        padding-right: 10px;
+
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+    .head{
+        border-left: 10px solid blue;
+        padding-left: 2vmax;
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+    
+    <div class="px-5 navBar height-20 d-flex justify-content-between align-items-center" style="background-color: #fff; width:100vw; height: 16vh; position: fixed; top: 0; z-index: 100;">
+
+        <div class="d-flex align-items-baseline px-3">
+            <div class="mx-1 square" style="height:20px; width:20px; background-color:blue"></div>
+            <h1 class="mx-1 fw-bold">Raushan </h1>
+            <h3 class="mx-1 fs-6 fw-4">/ SOFTWARE DEVELOPER</h3>
+        </div>
+            
+        <div class="d-flex px-5 list-unstyled">
+            <a href="index.html"><li class="fw-light mx-3" >ABOUT ME</li></a>
+            <a href="resume.html"> <li class="fw-light mx-3" >RESUME</li></a>
+            <a href="project.html"> <li class="fw-light mx-3" >PROJECTS</li></a>
+            <a href="contact.html"><li class="fw-light mx-3" >CONTACT</li></a>
+        </div>
+    
+    
+    </div>
+
+
+
+
+    <div class="main ">
+
+        <div class="d-flex align-items-baseline pb-3 justify-content-center py-5">
+            <div class="mx-1 square" style="height:20px; width:20px; background-color:blue"></div>
+            <h1 class="mx-1 fw-bold">Projects </h1>
+
+        </div>
+
+            <p class="w-50 text-center m-auto mb-2">Before creating any product, it’s important to have a design. This is why I work with my clients
+            from scratch and my first stage is to create a design version of the future product.</p>
+
+            <p class="w-50 text-center m-auto mb-4">I created number of web templates including responsive web templates some of them are listed here.</p>
+   
+        <div class="education m-auto mb-5">
+                <div class="left">
+                    <div class="head">
+                        <h2 class="fw-bold fs-4" style="color: #0050FE;">Portfolio</h2>
+                        <h4 class="fs-6 fw-bold">Responsive</h4>
+                    </div>
+
+                        <p class="ms-5">Created my own portfolio , I made this portfolio which contains 4 pages that is Home , About , Projects and Contact Page . It's responsive I have used animations , gsap and lot more. I learned new things while working on this </p>
+                    </div>
+                <div class="right">
+                    <a target="blank" href="https://raush3019.github.io/RaushanPortfolio/index.html"><img src="portfolio.png" alt="portfolio"></a>
+                    
+                </div> 
+        </div>
+        <div class="education m-auto mb-5">
+            <div class="left">
+                <div class="head">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">Photography</h2>
+                    <h4 class="fs-6 fw-bold">Responsive</h4>
+                </div>
+                    <p class="ms-5">A Gallary where you can check the work of a photographer and contact him as per your requirements . It consist of multiple pages that are categorized int various types</p>
+            </div>
+            <div class="right">
+                <a href="https://raush3019.github.io/photographyRaushan/" target="_blank"><img src="photography.png" alt=""></a>
+            </div> 
+        </div>
+  
+        <div class="education m-auto mb-5">
+                <div class="left">
+                    <div class="head">
+                        <h2 class="fw-bold fs-4" style="color: #0050FE;"> Lagunitas</h2>
+                        <h4 class="fs-6 fw-bold">Non responsive</h4>
+                    </div>
+                        <p class="ms-5">A Bear website that I created as a task , I used a very attracting effect of scaling the bottle also it automatically reaches the destination.</p>
+                </div>
+                <div class="right">
+                    <a target="_blank" href="https://raush3019.github.io/LagunitasPage/"> <img class="mt-5 pt-5" src="lagunitas.png" alt=""></a>
+                   
+                </div> 
+        </div>
+
+        <div class="education m-auto mb-5">
+            <div class="left">
+                <div class="head">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">Royal Food</h2>
+                    <h4 class="fs-6 fw-bold">Responsive</h4>
+                </div>
+                    <p class="ms-5"> A website of resturant where any random person can have meal after seeing the menu and the quality of food we are providing after checking our website</p>
+            </div>
+            <div class="right">
+                <a target="_blank" href="https://raush3019.github.io/royalFood/"> <img src="Royal.png" alt=""></a>
+               
+            </div> 
+        </div>
+    </div>
+    <div class="px-5 d-flex align-items-center justify-content-between"
+    style="
+
+    height: 15vh;
+
+    "
+>
+  <p>© 2022 by Raushan </p>
+  <div class="px-5 d-flex w-50 justify-content-between text-center">
+
+      <h6 class="" >Call <br> <br> <span class="fw-light" > 7091814690</span></h6>
+      <h6 class="" >Write <br> <br> <span class="fw-light" > raushankumar3019@gmail.com</span></h6>
+      <h6 class="" >Follow <br> <br> <span class="fw-light" > 
+                    <a href="https://github.com/raush3019"><i class="me-2 ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/raushan-kumar-99664621a/"><i class="me-2 ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/raush3019/"><i class="me-2 ri-instagram-line"></i></a>
+      </span></h6>
+
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script>
+    gsap.from(".main", {
+        opacity:0,
+        duration: 2,
+    })
+</script>
+</body>
+</html>

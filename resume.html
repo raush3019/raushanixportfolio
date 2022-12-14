@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Raushan | Portfolio</title>
+  <style>
+    *{
+        margin : 0;
+        padding : 0; 
+        box-sizing  : border-box;
+    }
+    html , body {
+       height : 100%;
+       width : 100%;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+    }
+    .main{
+        margin-top: 15vh;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: #E6D9CD;
+        position: relative;
+    }
+    .education > h4{
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    .education{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 55%;
+        width: 55%;
+        background-color: rgba(102, 51, 153, 0);
+        padding-bottom: 3vmax;
+        
+    }
+    .box{
+        margin-bottom: 5vmax;
+        display: flex;
+        padding: 2vmax;
+        height: 80%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.333);
+    }
+    .left{
+        padding: 3vmax 1vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 40%;
+        /* background-color: red; */
+
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 60%;
+        padding-left: 2vmax;
+        /* background-color: blue; */
+
+    }
+    img{
+        width: 15%;
+        position: absolute;
+        right: 30%;
+
+    }
+    .boxSkill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+    
+    <div class="px-5 navBar height-20 d-flex justify-content-between align-items-center" style="background-color: #fff; width:100vw; height: 16vh; position: fixed; top: 0; z-index: 100;">
+
+        <div class="d-flex align-items-baseline px-3">
+            <div class="mx-1 square" style="height:20px; width:20px; background-color:blue"></div>
+            <h1 class="mx-1 fw-bold">Raushan </h1>
+            <h3 class="mx-1 fs-6 fw-4">/ SOFTWARE DEVELOPER</h3>
+        </div>
+
+        <div class="d-flex px-5 list-unstyled">
+            <a href="index.html"><li class="fw-light mx-3" >ABOUT ME</li></a>
+            <a href="resume.html"> <li class="fw-light mx-3" >RESUME</li></a>
+            <a href="project.html"> <li class="fw-light mx-3" >PROJECTS</li></a>
+            <a href="contact.html"><li class="fw-light mx-3" >CONTACT</li></a>
+        </div>
+    
+    
+    </div>
+
+
+
+
+    <div class="main ">
+
+        <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+            <div class="mx-1 square" style="height:20px; width:20px; background-color:blue"></div>
+            <h1 class="mx-1 fw-bold">Resume </h1>
+
+        </div>
+
+        <div class="education m-auto">
+
+            <h4 class="fw-bold fs-3 mb-5">Education</h4>
+
+            <div class="box">
+                <div class="left">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">2019-2023</h2>
+                    <h4 class="fs-4 fw-light">Technocrats Institute of Technology </h4>
+                    <h4 class="fs-6 fw-light"> Electrical & Electronics , </h4>
+                    <h4 class="text-primary-50 fs-6 fw-light"> Bhopal </h4>
+                </div>
+                <div class="right">
+                    Presently persuing my B-tech from Technocrats Institute of technology and will graduate in june 2023  <br> currently my CGPA is 8.88
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="left">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">2016-2018</h2>
+                    <h4 class="fs-4 fw-light">Himalayan Public School</h4>
+                    <h4 class="fs-6 fw-light"> Science , </h4>
+                    <h4 class="text-primary-50 fs-6 fw-light"> Patna </h4>
+                </div>
+                <div class="right">
+                    <img class="" src="12th.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="education m-auto">
+
+            <h4 class="fw-bold fs-1 mb-3">Professional skillset</h4>
+
+            <div class="box boxSkill">
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">C++ Programming Language </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6"> Front End Web Development</h4>
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">Adobe XD </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">Node Js </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">GIT and GITHUB </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">Express Js </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">MongoDb </h4>
+        
+                </div>
+                <div class="d-flex align-items-baseline px-3 justify-content-center py-5">
+                    <div class="mx-1 square" style="height:15px; width:15px; background-color:blue"></div>
+                    <h4 class="mx-1 fw-light fs-6">Data Structure </h4>
+        
+                </div>
+                
+               
+
+            </div>
+            
+
+        </div>
+
+        <div class="education m-auto">
+
+            <h4 class="fw-bold fs-3 mb-5">Certification</h4>
+
+            <div class="box">
+                <div class="left">
+                    <h2 class="fw-bold fs-5 mb-1" style="color: #0050FE;">05/2022 - Present</h2>
+                    <h4 class="fs-4 fw-light">CPP Programming Language </h4>
+                    <h4 class="fs-6 fw-light">By PrepInsta  </h4>
+                </div>
+                <div class="right">
+                    I have completed the Cpp Nano degree certification course from prepInsta , There I get to know about basics of C++ programming language how we can deal with our real life problems with the help of code
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="left">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">08/2021 - present</h2>
+                    <h4 class="fs-4 fw-light">Elite Trader </h4>
+                    <h4 class="fs-6 fw-light"> By Booming Bulls Academy </h4>
+                    <h4 class="text-primary-50 fs-6 fw-light"> </h4>
+                </div>
+                <div class="right">
+                    I have completed this course in between march 2021 and june 2021 . There I came to know about NSE and BSE . I Learned everything which were required before trading , I gained 3-4 months experience in live market .
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="left">
+                    <h2 class="fw-bold fs-4" style="color: #0050FE;">05/2022 - present</h2>
+                    <h4 class="fs-4 fw-light">Importance of
+                        Technology in Public Sector</h4>
+                    <h4 class="fs-6 fw-light">By TCS ION </h4>
+                    <h4 class="text-primary-50 fs-6 fw-light"> </h4>
+                </div>
+                <div class="right">
+                    I got this opportunity to explore TCS ION , and then I choosed a topic that was Importance of technologies in public sectors organisations
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="px-5 d-flex align-items-center justify-content-between"
+    style="
+
+    height: 15vh;
+
+    "
+>
+  <p>© 2022 by Raushan </p>
+  <div class="px-5 d-flex w-50 justify-content-between text-center">
+
+      <h6 class="" >Call <br> <br> <span class="fw-light" > 7091814690</span></h6>
+      <h6 class="" >Write <br> <br> <span class="fw-light" > raushankumar3019@gmail.com</span></h6>
+      <h6 class="" >Follow <br> <br> <span class="fw-light" > 
+                    <a href="https://github.com/raush3019"><i class="me-2 ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/raushan-kumar-99664621a/"><i class="me-2 ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/raush3019/"><i class="me-2 ri-instagram-line"></i></a>
+      </span></h6>
+
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<script>
+    gsap.from(".main", {
+        opacity:0,
+        duration: 2,
+    })
+</script>
+</body>
+</html>
